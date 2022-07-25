@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grading System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <style>
+    #main{
+        background-image: url("images/back.png");
+        background-size: 90%;
+    }
+    </style>
+</head>
+<body>
+    <div id="top-bar">
+        <img class="img" src="images/top.png" alt="">
+        <center><h1 class="set">Grading System</h1></center>
+
+    </div><hr>
+    <div id="main">
+        <center>
+            <table>
+                <tr>
+                    <td><label >English</label></td> 
+                    <td><input type="text" id="english"></td>
+                </tr>
+                <tr>
+                        <td><label >Math</label></td> 
+                        <td><input type="text" id="math"></td>
+                </tr>
+                <tr>
+                        <td><label >Physics</label></td> 
+                        <td><input type="text" id="physics"></td>
+                </tr>
+                <tr>
+                        <td><label >Chemistry</label></td> 
+                        <td><input type="text" id="chemistry"></td>
+                </tr>
+                <tr>
+                        <td><label >Computer</label></td> 
+                        <td><input type="text" id="computer"></td>
+                </tr>
+               
+            </table>
+            <table>
+                    <tr>
+                            <td>
+                            <button onclick="sum()">Sum</button>
+                            <button onclick="average()">Average</button>
+                            <button onclick="grade()">Grade</button>
+                            </td>
+                        </tr>
+            </table>
+            <p><label class="res" > <u>Result</u> </label></p>
+            <h1 id="display" style="color:white;">         
+            </h1>
+            <h1 id="display2" style="color:white;">         
+                </h1>
+                <h1 id="display3" style="color:white;">         
+                </h1>
+            
+        </center>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
