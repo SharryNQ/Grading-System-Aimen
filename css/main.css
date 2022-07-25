@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0px;;
+}
+#top-bar{
+    float: left;
+    width: 100%;
+    height: 120px;
+    background-color: #0A1C1E;
+    
+}
+#main{
+    float: left;
+    height: 495px;
+    width: 100%;
+}
+.img{
+    
+    width: 180px;
+    height: 120px;
+
+}
+.set{
+    position: relative;
+    top: -90px;
+    color: #98B890;
+}
+#main table tr td input {
+    width: 140px;
+    height: 30px;;
+    font-size: 20px;
+}
+#main table tr td label {
+    font-size: 25px;
+    color: white;
+
+}
+#main table tr td  {
+    padding: 10px;   
+}
+#main table tr td button  {
+    position: relative;
+    top: -15px;
+    font-size: 13px;
+    padding: 7px;
+    width: 90px;   
+}
+.result{
+    width: 270px;
+    height: 30px;;
+    font-size: 20px;
+}
+.res{
+    font-size: 25px;
+    color: white;
+}
